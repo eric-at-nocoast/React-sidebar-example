@@ -13,7 +13,7 @@ This repo contains a scaffold to help developers build [apps for Zendesk product
 
 ### Setup
 1. Clone or fork this repo
-2. Change (`cd`) into the directory
+2. (`cd`) into the directory
 3. Run `yarn install`
 
 You can use either `yarn` or `npm` as package manager and run the scripts with the corresponding commands.
