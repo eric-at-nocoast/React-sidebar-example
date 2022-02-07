@@ -152,25 +152,25 @@ Specs live under the `spec` directory.
 To check that your app will pass the server-side validation check, run
 
 ```
-zcli apps:validate --path=dist
+zcli apps:validate dist
 ```
 
 If validation is successful, you can upload the app into your Zendesk account by running
 
 ```
-zcli apps:create --path=dist
+zcli apps:create dist
 ```
 
 To update your app after it has been created in your account, run
 
 ```
-zcli apps:update --path=dist
+zcli apps:update dist
 ```
 
 Or, to create a zip archive for manual upload, run
 
 ```
-zcli apps:package --path=dist
+zcli apps:package dist
 ```
 
 taking note of the created filename.
